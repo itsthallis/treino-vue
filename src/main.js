@@ -27,5 +27,12 @@ Vue.config.productionTip = false
 new Vue({
   el: '#app',
   components: { App },
-  template: '<App/>'
+  template: '<App/>',
 })
+
+var binding = new Vue({ 
+    el: '#binding',
+    data: {
+        message: 'Hello Vue!'
+    }
+});

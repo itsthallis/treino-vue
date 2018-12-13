@@ -5,6 +5,7 @@
     <div class="container">
       <titulo/>
       <subtitulo/>
+      <h1 id="binding">{{ message }}</h1>
       <blocos/>
       <blocos/>
     </div>
@@ -36,8 +37,9 @@
       imagemetexto,
       imagemetextoinvertido
     },
+
     data: {
-      
+      message: "sei la"
     }
   }
 </script>
