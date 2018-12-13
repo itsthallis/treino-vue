@@ -2,7 +2,7 @@
 	<div class="imagemetexto">
 		<div class="columns">
 			<div class="column is-half flexd"><font-awesome-icon icon="coffee" class="fa-10x"/></div>
-			<div class="column is-half flexd">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima iure voluptas facilis excepturi expedita fugit, quisquam dolorum molestias itaque vero earum suscipit, pariatur animi fuga consequuntur, dolores totam veritatis aut!</div>
+			<div class="column is-half flexd has-text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima iure voluptas facilis excepturi expedita fugit, quisquam dolorum molestias itaque vero earum suscipit, pariatur animi fuga consequuntur, dolores totam veritatis aut!</div>
 		</div>
 	</div>
 </template>
