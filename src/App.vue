@@ -39,7 +39,7 @@
     },
 
     data: {
-      message: "sei la"
+      message: "exemplo"
     }
   }
 </script>

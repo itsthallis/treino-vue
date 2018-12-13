@@ -12,7 +12,6 @@ library.add(faCoffee)
 library.add(faSearch)
 
 
-
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false
@@ -29,10 +28,3 @@ new Vue({
   components: { App },
   template: '<App/>',
 })
-
-var binding = new Vue({ 
-    el: '#binding',
-    data: {
-        message: 'Hello Vue!'
-    }
-});
