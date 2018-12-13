@@ -1,12 +1,17 @@
 <template>
   <div id="app">
-    <!-- <navbar/> -->
+    <navbar/>
     <img id="logo" src="./assets/logo.png">
     <div class="container">
       <titulo/>
       <subtitulo/>
       <blocos/>
       <blocos/>
+    </div>
+    <parallax/>
+    <div class="container">
+      <imagemetexto/>
+      <imagemetextoinvertido/>
     </div>
   </div>
 </template>
@@ -16,6 +21,9 @@
   import titulo from './components/titulo.vue'
   import subtitulo from './components/subtitulo.vue'
   import blocos from './components/texto.vue'
+  import parallax from './components/parallax.vue'
+  import imagemetexto from './components/imagemetexto.vue'
+  import imagemetextoinvertido from './components/imagemetextoinvertido.vue'
 
   export default {
     name: 'app',
@@ -23,7 +31,10 @@
       navbar,
       subtitulo,
       titulo,
-      blocos
+      blocos,
+      parallax,
+      imagemetexto,
+      imagemetextoinvertido
     },
     data: {
       
