@@ -54,6 +54,7 @@
 		background-color: #eee;
 		min-height: 30vh;
 		border-radius: 15px;
+		margin: 1vw;
 	}
 	.flexd{
 		display: flex;
