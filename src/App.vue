@@ -5,7 +5,6 @@
     <div class="container">
       <titulo/>
       <subtitulo/>
-      <h1>{{ message }}</h1>
       <blocos/>
       <blocos/>
     </div>
