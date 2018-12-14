@@ -5,11 +5,11 @@
     <div class="container">
       <titulo/>
       <subtitulo/>
-      <h1 id="binding">{{ message }}</h1>
+      <h1>{{ message }}</h1>
       <blocos/>
       <blocos/>
     </div>
-    <parallax/>
+    <!-- <parallax/> -->
     <div class="container">
       <imagemetexto/>
       <imagemetextoinvertido/>
@@ -38,10 +38,10 @@
       imagemetextoinvertido
     },
 
-    data: {
-      message: "exemplo"
+      data: {
+        message: "326454561312"
+      }
     }
-  }
 </script>
 
 <style>

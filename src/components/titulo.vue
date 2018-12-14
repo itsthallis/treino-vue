@@ -1,14 +1,17 @@
 <template>
-	<div class="titulo">
-		<p>agr vai!</p>
+	<div id="titulo" class="titulo">
+		<p>{{title}}</p>
 	</div>
 </template>
 
 <script>
 	export default {
 	  name: 'titulo',
-	  data: {
-
+	  el: '#titulo',
+	  data() {
+	  	return{
+		  	title: 'olá mundo'
+	  	}
 	  }
 	}
 </script>
