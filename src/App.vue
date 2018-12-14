@@ -36,12 +36,8 @@
       parallax,
       imagemetexto,
       imagemetextoinvertido
-    },
-
-      data: {
-        message: "326454561312"
-      }
     }
+  }
 </script>
 
 <style>
